@@ -108,6 +108,7 @@ form {
 	height: 40px;
 	display: flex;
 	align-items: center;
+	white-space: nowrap;
 }
 .header {
 	padding-bottom: 8px;
@@ -964,6 +965,7 @@ form {
 }
 .item-contact__head {
 	padding: 12px 24px;
+	gap: 10px;
 	cursor: pointer;
 	display: flex;
 	align-items: center;
