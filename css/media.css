@@ -1010,6 +1010,13 @@
     .footer__content {
         display: block !important;
     }
+
+    .ymaps-2-1-79-balloon__content {
+        margin-right: 0 !important;
+    }
+    .ymaps-2-1-79-balloon__close {
+        display: none !important;
+    }
 }
 
  /* Large Devices, Wide Screens */
