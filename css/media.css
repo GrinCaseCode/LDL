@@ -656,6 +656,7 @@
         margin-bottom: 20px;
         height: auto;
         min-height: initial;
+        background-size: 350px auto;
         padding-bottom: 0;
     }
     .about-team__image {
@@ -970,6 +971,28 @@
     .menu-mobile__contacts .header__contact strong {
         font-size: 16px;
     }
+    .item-box {
+        min-height: 110px;
+    }
+    .bottom-button {
+        padding-top: 25px;
+    }
+    .consultation__main .title-big {
+        max-width: 285px;
+    }
+    .item-contact__content {
+        padding: 13px 15px;
+        padding-top: 0;
+    }
+    .item-contact__head {
+        padding: 10px 15px;
+    }
+    .item-contact__head .title-min {
+        line-height: 140%;
+    }
+    .about-team .title-min {
+        font-size: 18px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -1073,10 +1096,6 @@
     .btn-search:active,
     .btn-main:active {
         background: #009dd2;
-    }
-    .menu > li > a:active {
-        background: #1D99DF;
-        color: #fff;
     }
     .btn-main.btn-main_simple:active {
         color: #49c1c7;
