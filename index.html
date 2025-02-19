@@ -1079,7 +1079,7 @@
 					$("." + location.className).click(function () {
 						myMap.setCenter(location.coords);
 					{
-					if ($(window).width() < 992) {
+					if ($(window).width() > 992) {
 						placemark.balloon.open();
 						}
 					}
@@ -1088,7 +1088,7 @@
 				});
 
 				{
-					if ($(window).width() < 992) {
+					if ($(window).width() > 992) {
 						if (placemarks.length > 0) {
 								placemarks[0].balloon.open();
 							}
