@@ -1089,6 +1089,13 @@
     .btn-top:hover {
         background: #007dcb;
     }
+    .btn-main.btn-main_page:hover {
+        background: #fff;
+        color: #1d99df;
+    }
+    .btn-eye:hover {
+        background: #49c1c7;
+    }
 }
 
 @media (hover: none) {
@@ -1118,5 +1125,12 @@
     }
     .btn-top:active {
         background: #007dcb;
+    }
+    .btn-main.btn-main_page:active {
+        background: #fff;
+        color: #1d99df;
+    }
+    .btn-eye:active {
+        background: #49c1c7;
     }
 }
