@@ -79,12 +79,14 @@
     .title-middle {
         font-size: 21px;
     }
+    .slider-reviews-page .slick-slide,
     .slider-sales .slick-slide, 
     .row > div {
         padding: 0 12px;
     }
-    .slider-sales 
-    .slick-list, .row {
+    .slider-reviews-page .slick-list,
+    .slider-sales .slick-list, 
+    .row {
         margin: 0 -12px;
     }
     .item-banner {
@@ -416,13 +418,119 @@
     .info-card__price {
         font-size: 31px;
     }
-    .page-card .article-content ul {
-        margin: 22px 0;
-    }
     .page-card .article-content h2 {
         margin-top: 35px;
     }
     .page-card {
+        padding-bottom: 80px;
+    }
+    .page-card .breadcrumbs {
+        padding-bottom: 33px;
+    }
+    .head-form {
+        padding: 18px;
+        margin: 0 -15px;
+        margin-bottom: 22px;
+    }
+    .head-form__price {
+        font-size: 28px;
+    }
+    .descr-form {
+        margin-bottom: 20px;
+    }
+    .btn-phone {
+        padding: 13px 17px;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .about-main__image img {
+        max-width: 440px;
+    }
+    .about-main {
+        padding: 38px;
+        min-height: 440px;
+        background-position: right bottom -55px;
+        background-size: 486px auto;
+    }
+    .about__head .title-min {
+        max-width: 845px;
+    }
+    .about__head {
+        margin-bottom: 50px;
+    }
+    .licenses {
+        padding-bottom: 80px;
+    }
+    .head-preparation p {
+        max-width: 815px;
+    }
+    .head-preparation {
+        margin-bottom: 35px;
+    }
+    .tabs-page a {
+        padding: 18px;
+        font-size: 18px;
+    }
+    .results-preparation .title-section {
+        font-size: 26px;
+        margin-bottom: 35px;
+    }
+    .results-preparation .article-content p {
+        max-width: 815px;
+    }
+    .page-preparation {
+        padding-bottom: 80px;
+    }
+    .mockup-block {
+        padding: 70px 64px;
+    }
+    .title-mockup {
+        font-size: 50px;
+        margin-bottom: 28px;
+    }
+    .descr-mockup {
+        font-size: 18px;
+        max-width: 485px;
+        margin-bottom: 40px;
+    }
+    .mockup-content .btn-main {
+        width: 318px;
+        height: 62px;
+        font-size: 15px;
+    }
+    .page-mockup {
+        padding-bottom: 80px;
+    }
+    .mockup-content {
+        padding: 32px;
+        padding-bottom: 37px;
+        max-width: 585px;
+    }
+    .item-review {
+        padding: 18px 22px;
+        width: 630px;
+    }
+    .page-reviews .title-section {
+        margin-bottom: 30px;
+    }
+    .controls-reviews .slick-dots li button {
+        font-size: 14px;
+    }
+    .controls-reviews .slick-dots {
+        gap: 18px;
+    }
+    .page-reviews {
+        padding-bottom: 80px;
+    }
+    .item-review__name {
+        font-size: 18px;
+        padding-bottom: 13px;
+        margin-bottom: 15px;
+    }
+    .page-sales .title-section {
+        margin-bottom: 28px;
+    }
+    .page-sales {
         padding-bottom: 80px;
     }
 }
@@ -706,6 +814,82 @@
     .breadcrumbs {
         padding-top: 20px;
     }
+    .form-page .head-form .btn-main {
+        padding: 0 25px;
+        height: 37px;
+    }
+    .head-form__price {
+        font-size: 25px;
+    }
+    .head-form {
+        padding: 16px;
+        margin: 0;
+        margin-bottom: 18px;
+    }
+    .about-main {
+        padding: 30px;
+        min-height: 400px;
+        background-size: 430px auto;
+    }
+    .about-main__image img {
+        max-width: 388px;
+    }
+    .about-main .title-min {
+        margin: 20px 0;
+    }
+    .about__head .title-min {
+        max-width: 738px;
+    }
+    .tabs-page a {
+        padding: 16px;
+        font-size: 16px;
+    }
+    .results-preparation .title-section {
+        font-size: 20px;
+        margin-bottom: 28px;
+    }
+    .article-content.article-content_preparation {
+        margin-top: 38px;
+        margin-bottom: 50px;
+    }
+    .results-preparation .article-content p {
+        max-width: 695px;
+    }
+    .head-preparation p {
+        max-width: 695px;
+    }
+    .mockup-block {
+        padding: 50px 40px;
+    }
+    .title-mockup {
+        font-size: 40px;
+        margin-bottom: 18px;
+    }
+    .descr-mockup {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    .mockup-content .btn-main {
+        width: 280px;
+        height: 56px;
+        font-size: 14px;
+    }
+    .mockup-content {
+        padding: 28px;
+        padding-bottom: 34px;
+        max-width: 485px;
+    }
+    .item-review__name {
+        font-size: 16px;
+        padding-bottom: 12px;
+        margin-bottom: 13px;
+    }
+    .item-review {
+        width: 542px;
+    }
+    .controls-reviews {
+        margin-top: 45px;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -853,7 +1037,7 @@
     }
     .item-sale {
         padding: 12px;
-        padding-left: 24px;
+        padding-left: 16px;
         gap: 20px;
         font-size: 12px;
     }
@@ -1131,7 +1315,7 @@
     .btn-links .btn-main {
         padding: 0 19px;
         font-size: 13px;
-        height: 44px;
+        height: 42px;
     }
     .page-news {
         padding-top: 20px;
@@ -1231,6 +1415,174 @@
     .page-card {
         padding-bottom: 60px;
     }
+    .page-card .breadcrumbs {
+        padding-bottom: 22px;
+    }
+    .about-main {
+        padding: 25px 20px;
+        padding-bottom: 0;
+        background-size: 335px auto;
+    }
+    .about-main__image {
+        margin-right: -20px;
+        position: relative;
+    }
+    .about-main__image img {
+        max-width: 100%;
+    }
+    .page-about {
+        padding-bottom: 50px;
+    }
+    .licenses .title-section {
+        margin-bottom: 18px;
+    }
+    .licenses .row.row_main > div {
+        padding: 0 4px;
+        margin-bottom: 8px;
+    }
+    .licenses .row.row_main {
+        margin: 0 -4px;
+        margin-bottom: -8px;
+    }
+    .licenses {
+        padding-bottom: 50px;
+    }
+    .about__head {
+        margin-bottom: 30px;
+    }
+    .head-preparation .title-section {
+        font-size: 23px;
+    }
+    .head-preparation {
+        margin-bottom: 18px;
+    }
+    .page-preparation .article-content ul li {
+        margin-bottom: 8px;
+    }
+    .article-content.article-content_preparation {
+        margin-top: 15px;
+        margin-bottom: 39px;
+    }
+    .title-image {
+        margin-bottom: 15px;
+    }
+    .results-preparation .article-content .row > div {
+        margin-bottom: 15px;
+    }
+    .results-preparation .article-content .row {
+        margin-bottom: -15px;
+    }
+    .page-preparation {
+        padding-bottom: 40px;
+    }
+    .tabs-page a {
+        padding: 14px;
+        font-size: 14px;
+    }
+    .tabs-page {
+        margin-bottom: 30px;
+    }
+    .mockup-block {
+        padding: 20px;
+    }
+    .mockup-content {
+        padding: 20px;
+        padding-bottom: 32px;
+        background: rgba(255, 255, 255, 0.7);
+    }
+    .title-mockup {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .descr-mockup {
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+    .descr-mockup br {
+        display: none;
+    }
+    .mockup-content .btn-main {
+        width: 100%;
+    }
+    .page-mockup {
+        padding-top: 25px;
+    }
+    .page-mockup_thanks .mockup-block {
+        background-position: left center;
+    }
+    .item-review {
+        width: 100%;
+    }
+    .slider-reviews-page {
+        padding: 0 15px;
+    }
+    .page-reviews {
+        padding-bottom: 60px;
+    }
+    .page-reviews .title-section {
+        margin-bottom: 25px;
+    }
+    .page-sales {
+        padding-bottom: 55px;
+    }
+    .tabs-wrap {
+        margin-bottom: 20px;
+        z-index: 5;
+        position: relative;
+    }
+    .tabs-wrap .tabs-page {
+        position: absolute;
+        margin-top: 0;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #f0f8fc;
+        border-radius: 8px;
+        display: block;
+        z-index: 10;
+        display: none;
+    }
+    .btn-tab {
+        padding: 14px;
+        font-size: 14px;
+        border-radius: 8px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #dcedff;
+    }
+    .btn-tab::after {
+        width: 19px;
+        height: 19px;
+        font-size: 13px;
+        content: "\f078";
+        margin-left: auto;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        line-height: 1;
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 400;
+        transition: all 0.3s;
+    }
+    .btn-tab.active::after {
+        transform: rotate(180deg);
+    }
+    .btn-tab i,
+    .tabs-wrap .tabs-page i {
+        display: none;
+    }
+    .tabs-page a {
+        border-radius: 8px;
+        margin-bottom: 2px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -1273,6 +1625,7 @@
     .show-mob {
         display: none !important;
     }
+    .tabs-page,
     .footer__content {
         display: block !important;
     }
@@ -1344,6 +1697,13 @@
     .link-nav:hover span {
         color: #fff;
     }
+    .tabs-page a:hover {
+        background: #49c1c7;
+        color: #fff;
+    }
+    .controls-reviews .slick-dots li button:hover {
+        color: #009dd2;
+    }
 }
 
 @media (hover: none) {
@@ -1389,5 +1749,12 @@
     }
     .link-nav:active span {
         color: #fff;
+    }
+    .tabs-page a:active {
+        background: #49c1c7;
+        color: #fff;
+    }
+    .controls-reviews .slick-dots li button:active {
+        color: #009dd2;
     }
 }

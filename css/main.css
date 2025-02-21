@@ -616,9 +616,6 @@ form {
 .item-catalog__main .title-min {
 	margin-bottom: 11px;
 }
-.item-catalog__info {
-	min-width: 150px;
-}
 .item-catalog:nth-child(even) {
 	background: #f3f5f5;
 }
@@ -631,10 +628,12 @@ form {
 	padding: 0 30px;
 	text-transform: none;
 }
+.slider-reviews-page .slick-slide,
 .slider-sales .slick-slide,
 .row > div {
 	padding: 0 18px;
 }
+.slider-reviews-page .slick-list,
 .slider-sales .slick-list,
 .row {
 	margin: 0 -18px;
@@ -1471,9 +1470,6 @@ form {
 .page-card .article-content {
 	margin-right: 30px;
 }
-.page-card .article-content ul {
-	margin: 30px 0;
-}
 .page-card .article-content h2 {
 	margin-top: 54px;
 }
@@ -1515,4 +1511,336 @@ form {
 	font-size: 36px;
 	line-height: 160%;
 	font-weight: 600;
+}
+.article-content ol {
+	padding: 0;
+	margin: 0;
+	padding-left: 20px;
+}
+.form-page_service .btn-main {
+	text-transform: none;
+}
+.btn-phone {
+	padding: 16px 20px;
+	font-size: 18px;
+	margin-bottom: 42px;
+	line-height: 140%;
+	color: #fff;
+	font-weight: 600;
+	border-radius: 8px;
+	background: #009dd2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+.descr-form {
+	margin-bottom: 24px;
+	text-align: center;
+}
+.form-page_service .title-form {
+	margin-bottom: 15px;
+}
+.head-form {
+	padding: 24px;
+	margin: 0 -28px;
+	margin-bottom: 32px;
+	border-radius: 8px;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.head-form__price {
+	font-size: 32px;
+	line-height: 160%;
+	font-weight: 600;
+}
+.form-page .head-form .btn-main {
+	padding: 0 31px;
+	height: 40px;
+	text-transform: none;
+	margin: 0;
+	width: auto;
+}
+.page-card .breadcrumbs {
+	padding-bottom: 55px;
+}
+.page-about {
+	padding-top: 15px;
+	padding-bottom: 62px;
+}
+.about-main {
+	padding: 48px;
+	min-height: 500px;
+	border-radius: 20px;
+	background-color: #dcedff;
+	position: relative;
+	background-image: url(../img/lines_about_main.svg);
+	background-repeat: no-repeat;
+	background-position: right bottom -63px;
+}
+.about-main .title-min {
+	margin: 28px 0;
+}
+.about-main__image {
+	bottom: 0;
+	right: 0;
+	position: absolute;
+}
+.about-main__image img {
+	max-width: 492px;
+	border-radius: 0 0 20px 0;
+}
+.licenses {
+	padding-bottom: 100px;
+}
+.licenses .title-section {
+	margin-bottom: 30px;
+}
+.image-document {
+	padding-top: 122%;
+	position: relative;
+	display: block;
+}
+.image-document span {
+	border-radius: 16px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.image-document img {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    font-family: 'object-fit: cover;';
+	border-radius: 16px;
+}
+.about__head {
+	margin-bottom: 84px;
+	text-align: center;
+}
+.about__head .title-min {
+	max-width: 941px;
+	margin: 0 auto;
+}
+.licenses + .about {
+	padding-top: 0;
+}
+.head-preparation .title-section {
+	margin-bottom: 14px;
+}
+.head-preparation {
+	margin-bottom: 50px;
+}
+.head-preparation strong {
+	font-weight: 600;
+}
+.head-preparation p {
+	max-width: 900px;
+}
+.tabs-page a {
+	padding: 20px;
+	font-size: 20px;
+	margin-bottom: 8px;
+	line-height: 140%;
+	color: #20231e;
+	font-weight: 600;
+	border-radius: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: #dcedff;
+	gap: 10px;
+}
+.tabs-page .active a {
+	background: #49c1c7;
+	color: #fff;
+}
+.tabs-page a i {
+	font-size: 70%;
+}
+.page-preparation .article-content ul li {
+	margin-bottom: 15px;
+}
+.page-preparation .article-content ul li:last-child {
+	margin-bottom: 0;
+}
+.page-preparation .article-content h2:first-child {
+	margin-top: 0;
+}
+.tab-pane-page {
+	display: none;
+}
+.tab-pane-page:first-child {
+	display: block;
+}
+.article-content.article-content_preparation {
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+.article-content.article-content_preparation p {
+	margin-bottom: 15px;
+}
+.article-content.article-content_preparation .text-list p {
+	margin: 0;
+}
+.page-preparation {
+	padding-top: 15px;
+	padding-bottom: 100px;
+}
+.results-preparation .title-section {
+	margin-bottom: 50px;
+}
+.results-preparation .article-content {
+	padding-bottom: 24px;
+	text-align: center;
+}
+.title-image {
+	margin-bottom: 24px;
+	text-align: left;
+	font-style: italic;
+}
+.results-preparation .article-content img {
+	border-radius: 0;
+	margin: 0 auto;
+}
+.results-preparation .article-content p {
+	max-width: 932px;
+	margin: 0 auto;
+}
+.page-mockup {
+	padding-top: 15px;
+	padding-bottom: 100px;
+}
+.mockup-block {
+	padding: 98px 88px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 20px;
+}
+.page-mockup_error .mockup-block {
+	background-image: url(../img/bg_error.jpg);
+}
+.mockup-content {
+	padding: 36px;
+	padding-bottom: 48px;
+	max-width: 652px;
+	border-radius: 20px;
+	background: #fff;
+}
+.title-mockup {
+	font-size: 56px;
+	margin-bottom: 48px;
+	line-height: 140%;
+	letter-spacing: 0.02em;
+	font-weight: 600;
+}
+.descr-mockup {
+	font-size: 20px;
+	margin-bottom: 64px;
+	max-width: 538px;
+	line-height: 160%;
+}
+.mockup-content .btn-main {
+	width: 360px;
+	height: 67px;
+	font-size: 16px;
+	text-transform: none;
+	padding: 0 10px;
+}
+.page-mockup_thanks .mockup-block {
+	background-image: url(../img/bg_thanks.jpg);
+}
+.page-reviews {
+	padding-top: 15px;
+	padding-bottom: 100px;
+}
+.slick-track {
+	display: flex !important;
+	align-items: center;
+}
+.slick-slide {
+	height: inherit !important;
+}
+.slider-reviews-page:not(.slick-initialized) > *:not(:first-child) {
+	display: none;
+}
+.item-review {
+	padding: 20px 24px;
+	width: 702px;
+	border-radius: 14px;
+	background: #fff;
+}
+.item-review__name {
+	font-size: 20px;
+	padding-bottom: 16px;
+	margin-bottom: 20px;
+	line-height: 140%;
+	font-weight: 600;
+	border-bottom: 1px solid #9b9ea0;
+}
+.item-review__date {
+	margin-top: 20px;
+	color: #9b9ea0;
+}
+.page-reviews .title-section {
+	margin-bottom: 40px;
+}
+.controls-reviews .slick-dots li {
+	width: auto !important;
+	height: auto !important;
+}
+.controls-reviews .slick-dots li button {
+	font-size: 16px;
+	line-height: 130%;
+	color: #20231e;
+	background: transparent;
+	border-radius: 0;
+	padding: 0;
+	width: auto !important;
+	height: auto !important;
+}
+.controls-reviews .slick-dots li.slick-active button {
+	color: #009dd2;
+	font-weight: 600;
+}
+.controls-reviews {
+	margin-top: 60px;
+	display: flex;
+	align-items: center;
+}
+.controls-reviews .slick-arrow {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	transform: none;
+	position: relative;
+}
+.controls-reviews .slick-dots {
+	gap: 20px;
+	bottom: 0;
+	width: auto;
+	position: relative;
+	flex: 1;
+}
+.controls-reviews .slick-next {
+	order: 2;
+}
+.page-sales {
+	padding-top: 15px;
+	padding-bottom: 100px;
+}
+.page-sales .title-section {
+	margin-bottom: 34px;
+}
+.page-sales .item-sale {
+	gap: 30px;
+}
+.btn-tab {
+	display: none;
 }
