@@ -1504,8 +1504,8 @@
     .mockup-content .btn-main {
         width: 100%;
     }
-    .page-mockup {
-        padding-top: 40px;
+    .page-mockup {  
+        padding-top: 40px; 
     }
     .page-mockup_thanks .mockup-block {
         background-position: left center;

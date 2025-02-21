@@ -1651,11 +1651,11 @@ form {
 	border-radius: 14px;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-between; 
 	background: #dcedff;
 	gap: 10px;
 }
-.tabs-page .active a {
+.tabs-page .active a { 
 	background: #49c1c7;
 	color: #fff;
 }
